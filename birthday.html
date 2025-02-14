@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Puzzle by Fake Batman</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="birthday-message" id="birthdayMessage">can you solve the puzzle?</div>
+        <div class="puzzle" id="puzzle">Enter the secret word to reveal the birthday message!</div>
+        <div class="hint" id="hint">Hint: Vinayak (hehe)</div>
+        <br />
+        
+        <div class="form-group" id="formGroup">
+            <input type="text" id="secretWord" class="form-control" placeholder="ans">
+            <button class="btn btn-primary" onclick="checkSecretWord()">Done</button>
+        </div>
+        <div class="birthday-message hidden" id="birthdayWish"></div>
+        <div class="signature hidden" id="signature">- wishes from Fake Batman</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

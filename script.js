@@ -30,7 +30,7 @@ window.onload = function() {
     if (window.location.pathname.endsWith('index.html') || window.location.pathname === '/') {
         alert("ur phone is hacked!💀👍");
     } else if (window.location.pathname.endsWith('birthday.html')) {
-        alert("puzzle is v easy, but for dumb ppl like u it's v hard");
+        alert("puzzle is v easy, but for dumb ppl it's v hard yk");
         let userName = localStorage.getItem("userName");
         if (userName) {
             document.getElementById("birthdayWish").innerText = `happy birthday, ${userName}!`;
